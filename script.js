@@ -46,10 +46,10 @@
 
   // Catalogue client: remplacer les valeurs nulles après confirmation par RedPhone.
   const productData = {
-    'iphone-16': { title: 'iPhone 16', image: 'assets/images/iphone-16.jpg', alt: 'Vue arrière de l’iPhone 16 bleu outremer', message: 'iPhone 16', storage: null, priceMad: null, color: null, condition: null, availability: null },
-    'iphone-15': { title: 'iPhone 15', image: 'assets/images/iphone-15.jpg', alt: 'iPhone 15 photographié de face et de dos', message: 'iPhone 15', storage: null, priceMad: null, color: null, condition: null, availability: null },
-    'iphone-14': { title: 'iPhone 14', image: 'assets/images/iphone-14.jpg', alt: 'iPhone 14 présenté en boutique', message: 'iPhone 14', storage: null, priceMad: null, color: null, condition: null, availability: null },
-    'iphone-13-pro': { title: 'iPhone 13 Pro', image: 'assets/images/iphone-13-pro.jpg', alt: 'Gros plan sur l’écran d’un iPhone 13 Pro', message: 'iPhone 13 Pro', storage: null, priceMad: null, color: null, condition: null, availability: null }
+    'iphone-16': { title: 'iPhone 16', image: './iphone-16.jpg', alt: 'Vue arrière de l’iPhone 16 bleu outremer', message: 'iPhone 16', storage: null, priceMad: null, color: null, condition: null, availability: null },
+    'iphone-15': { title: 'iPhone 15', image: './iphone-15.jpg', alt: 'iPhone 15 photographié de face et de dos', message: 'iPhone 15', storage: null, priceMad: null, color: null, condition: null, availability: null },
+    'iphone-14': { title: 'iPhone 14', image: './iphone-14.jpg', alt: 'iPhone 14 présenté en boutique', message: 'iPhone 14', storage: null, priceMad: null, color: null, condition: null, availability: null },
+    'iphone-13-pro': { title: 'iPhone 13 Pro', image: './iphone-13-pro.jpg', alt: 'Gros plan sur l’écran d’un iPhone 13 Pro', message: 'iPhone 13 Pro', storage: null, priceMad: null, color: null, condition: null, availability: null }
   };
   document.querySelectorAll('.product-card').forEach(card => {
     const key = card.querySelector('.detail-button')?.dataset.product;
